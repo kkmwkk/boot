@@ -12,7 +12,7 @@ public class TempControllerTest {
 	@GetMapping("/temp/home")
 	public String tempHome() {
 		// 파일리턴 기본경로 : src/main/resources/static
-		return "/home.html";
+		return "test";
 	}
 	
 	@GetMapping("/temp/jsp")
