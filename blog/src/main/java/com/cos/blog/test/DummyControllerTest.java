@@ -17,6 +17,7 @@ public class DummyControllerTest {
 	
 	// http://localhost:8080/blog/dummy/join(요청)
 	// http의 body에 username, password, email 데이터를 가지고 (요청)
+	
 	@PostMapping("/dummy/join")
 	public String join(User user) {
 		System.out.println("username : " + user.getUsername());
