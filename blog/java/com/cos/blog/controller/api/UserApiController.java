@@ -35,7 +35,6 @@ public class UserApiController {
 	public ResponseDto<Integer> login(@RequestBody User user){
 		System.out.println("UserApiController : login 호출됨");
 		User principal = userService.로그인(user); // principal(접근주체)
-		
 		if(principal != null) {
 			session.setAttribute("principal", principal);
 		}

@@ -21,7 +21,7 @@
 
 
 	</form>
-	<button id="btn-save" class="btn btn-primary">회원가입완료</button>
+	<button id="btn-save" class="btn btn-primary">확인</button>
 </div>
 
 <script src="/blog/js/user.js"></script>
