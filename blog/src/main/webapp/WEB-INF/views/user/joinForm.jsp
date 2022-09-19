@@ -24,6 +24,6 @@
 	<button id="btn-save" class="btn btn-primary">확인</button>
 </div>
 
-<script src="/blog/js/user.js"></script>
+<script src="/js/user.js"></script>
 
 <%@ include file="../layout/footer.jsp"%>
