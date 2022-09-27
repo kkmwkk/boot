@@ -4,15 +4,15 @@
 
 <div class="container">
 
+<c:forEach var="board" items="${boards}">
 	<div class="card m-2">
 		<img class="card-img-top">
 		<div class="card-body">
-			<h4 class="card-title">제목 적는 부분</h4>
-			<p class="card-text">내용 적는 부분</p>
+			<h4 class="card-title">${board.title}</h4>
 			<a href="#" class="btn btn-primary">상세보기</a>
 		</div>
 	</div>
-
+</c:forEach>
 </div>
 
 <%@ include file="layout/footer.jsp" %>
