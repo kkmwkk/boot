@@ -15,6 +15,7 @@ import lombok.Getter;
 
 @Getter
 public class PrincipalDetail implements UserDetails{
+	
 	private User user; // 컴포지션
 	
 	public PrincipalDetail(User user) {
@@ -63,13 +64,13 @@ public class PrincipalDetail implements UserDetails{
 		
 		Collection<GrantedAuthority> collectors = new ArrayList<>();
 //		collectors.add(new GrantedAuthority() {
-//			
-//			@Override
-//			public String getAuthority() {
-//				return "ROLE_" +user.getRole(); //ROLE_USER
-//			}
-//		});
-		
+//		
+//		@Override
+//		public String getAuthority() {
+//			return "ROLE_" +user.getRole(); //ROLE_USER
+//		}
+//	});
+	
 		collectors.add(()->{return "ROLE_"+user.getRole();});
 		return collectors;
 	}
