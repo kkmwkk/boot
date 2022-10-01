@@ -19,6 +19,8 @@ spring:
     username: root
     password: 1234
     
+    
+    
   jpa:
     open-in-view: true
     hibernate:
@@ -33,5 +35,6 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: false
-      
+
+
       
