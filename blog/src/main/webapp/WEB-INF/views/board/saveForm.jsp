@@ -5,13 +5,12 @@
 <div class="container">
 	<form>
 		<div class="form-group">
-			<label for="title">Title</label> <input type="text" class="form-control" placeholder="Enter title" id="title">
+			<input type="text" class="form-control" placeholder="Enter title" id="title">
 		</div>
 
 
 
 		<div class="form-group">
-			<label for="content">Content</label>
 			<textarea class="form-control summernote" rows="5" id="content"></textarea>
 		</div>
 
