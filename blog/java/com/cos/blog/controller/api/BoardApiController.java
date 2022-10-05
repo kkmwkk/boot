@@ -18,6 +18,8 @@ import com.cos.blog.service.BoardService;
 @RestController
 public class BoardApiController {
 	
+	
+	
 	@Autowired
 	private BoardService boardService;
 	
